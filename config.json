@@ -1,0 +1,31 @@
+{
+  "project": {
+    "slug": "wp-dev-base",
+    "zip": "wp-dev-base.zip"
+  },
+  "dev": {
+    "proxy": "wp-dev-base.dev",
+    "destination": "build/"
+  },
+  "paths": {
+    "watch": {
+      "css": [
+        "assets/scss/**/*.scss"
+      ],
+      "php": [
+        "src/**/*.php"
+      ]
+    },
+    "css": [
+      "assets/scss/style.scss"
+    ],
+    "javascript": {
+      "frontend": [
+        "assets/js/frontend/**/*.js"
+      ],
+      "backend": [
+        "assets/js/backend/**/*.js"
+      ]
+    }
+  }
+}
